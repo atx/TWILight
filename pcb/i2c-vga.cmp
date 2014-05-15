@@ -1,0 +1,248 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Wed 14 May 2014 03:41:45 PM CEST
+
+BeginCmp
+TimeStamp = /53732914;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537327F0;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732ED8;
+Reference = C3;
+ValeurCmp = 12pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732EE7;
+Reference = C4;
+ValeurCmp = 12pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732079;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373206A;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732524;
+Reference = D1;
+ValeurCmp = LED-PWR;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732531;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373254B;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732565;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373257F;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732599;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373695F;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53731B62;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53731D40;
+Reference = IC2;
+ValeurCmp = REG1117;
+IdModule  = burr-brown-SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /53731AB0;
+Reference = J1;
+ValeurCmp = CON-DSUB-15-VGA;
+IdModule  = m-pad-2.1-181-015-212-171;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373400C;
+Reference = J2;
+ValeurCmp = UART;
+IdModule  = dp_devices-M1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = /537338EF;
+Reference = J3;
+ValeurCmp = ICSP;
+IdModule  = pinhead-1-2X05;
+EndCmp
+
+BeginCmp
+TimeStamp = /537343A7;
+Reference = J4;
+ValeurCmp = I2C-3.3V;
+IdModule  = pinhead-1-2X06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53736118;
+Reference = J5;
+ValeurCmp = I2C-5V;
+IdModule  = pinhead-1-2X04;
+EndCmp
+
+BeginCmp
+TimeStamp = /53734F25;
+Reference = J6;
+ValeurCmp = GPIO;
+IdModule  = pinhead-1-2X05;
+EndCmp
+
+BeginCmp
+TimeStamp = /53733539;
+Reference = Q1;
+ValeurCmp = MOSFET-N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /537337CC;
+Reference = Q2;
+ValeurCmp = MOSFET-N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732C42;
+Reference = R1;
+ValeurCmp = 10kR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537335E4;
+Reference = R2;
+ValeurCmp = 3.3kR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537337D8;
+Reference = R3;
+ValeurCmp = 3.3kR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373252A;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732537;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732551;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373256B;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732585;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5373259F;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53736965;
+Reference = R15;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732C29;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53732E6D;
+Reference = XTAL1;
+ValeurCmp = 12M;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe
