@@ -33,9 +33,7 @@ int main() {
 
 	sei();
 
-	while(1) {
-		//printf("%02x\n\r", TWSR);
-	}
+	while(1) {}
 }
 
 uint8_t get_address(uint8_t addr) {
