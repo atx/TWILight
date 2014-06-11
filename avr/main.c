@@ -92,15 +92,31 @@ void set_address(uint8_t addr, uint8_t val) {
 	else { /* LEDs */
 		switch(addr) {
 		case 0x06: /* 0B */
+			if(!val)
+				TCCR0A &= ~(_BV(COM0B1));
+			else
+				TCCR0A |= _BV(COM0B1);
 			OCR0B = val;
 			break;
 		case 0x07: /* 0A*/
+			if(!val)
+				TCCR0A &= ~(_BV(COM0A1));
+			else
+				TCCR0A |= _BV(COM0A1);
 			OCR0A = val;
 			break;
 		case 0x08: /* 2A */
+			if(!val)
+				TCCR2A &= ~(_BV(COM2A1));
+			else
+				TCCR2A |= _BV(COM2A1);
 			OCR2A = val;
 			break;
 		case 0x09: /* 2B */
+			if(!val)
+				TCCR2A &= ~(_BV(COM2B1));
+			else
+				TCCR2A |= _BV(COM2B1);
 			OCR2B = val;
 			break;
 		}
