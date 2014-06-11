@@ -1,18 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Wed 14 May 2014 03:41:45 PM CEST
-
-BeginCmp
-TimeStamp = /53732914;
-Reference = C1;
-ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537327F0;
-Reference = C2;
-ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Wed 11 Jun 2014 08:20:45 AM CEST
 
 BeginCmp
 TimeStamp = /53732ED8;
@@ -159,13 +145,6 @@ TimeStamp = /537337CC;
 Reference = Q2;
 ValeurCmp = MOSFET-N;
 IdModule  = SOT23;
-EndCmp
-
-BeginCmp
-TimeStamp = /53732C42;
-Reference = R1;
-ValeurCmp = 10kR;
-IdModule  = SM0805;
 EndCmp
 
 BeginCmp
