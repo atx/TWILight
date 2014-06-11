@@ -1,6 +1,6 @@
 NAME	= twilight
 MCU	= atmega328p
-F_CPU	= 16000000
+F_CPU	= 12000000
 FORMAT	= ihex
 TARGET	= $(NAME)
 
