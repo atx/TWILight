@@ -155,9 +155,9 @@ static int twilight_probe(struct i2c_client *cli, const struct i2c_device_id *id
 	snprintf(data->leds[1].name, ARRAY_SIZE(data->leds[0].name),
 				"twilight-%d:%s:", cli->adapter->nr, "blue");
 	snprintf(data->leds[2].name, ARRAY_SIZE(data->leds[0].name),
-				"twilight-%d:%s:", cli->adapter->nr, "white");
+				"twilight-%d:%s:", cli->adapter->nr, "green");
 	snprintf(data->leds[3].name, ARRAY_SIZE(data->leds[0].name),
-				"twilight-%d:%s:", cli->adapter->nr, "yellow");
+				"twilight-%d:%s:", cli->adapter->nr, "red");
 
 	for (i = 0; i < ARRAY_SIZE(data->leds); i++) { /* Populate with common values and register */
 		data->leds[i].data = data;
